@@ -165,7 +165,6 @@ ylabel('Probability');
 % part1: write code to read the Cp data from this file into a vector. You can ignore the last two
 % rows with positions beginning with G and H as there were no samples here. 
 
-%{ fid=fopen('qPCRdata.txt', 'r');
 
 fid = fopen('qPCRdata.txt')
 head = fgetl(fid);
